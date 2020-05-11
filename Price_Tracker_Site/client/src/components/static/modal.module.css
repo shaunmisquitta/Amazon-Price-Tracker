@@ -1,0 +1,49 @@
+.modal{
+    background-color:white;
+    width:220px;
+    height:280px;
+
+    box-shadow: 0 2px 8px rgba(0,0,0, 0.26);
+    position:fixed;
+    top: 40vh;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    
+}
+.title{
+    padding-top: 30px;
+}
+.actions{
+    padding: 2rem;
+}
+body{
+    margin :0px;
+    padding: 0;
+}
+.backdrop{
+    background-color: white;
+   
+    height:90vh;
+    width: 100%;
+    
+    top:0;
+    left: 0;
+    
+    opacity: .9;
+    
+    box-sizing: border-box;
+}
+
+.modal_btn {
+    font-size: 9px;
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    font-size: 8px;
+    margin: 9px;
+    
+    
+}

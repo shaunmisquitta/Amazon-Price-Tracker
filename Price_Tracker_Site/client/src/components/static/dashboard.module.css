@@ -1,0 +1,42 @@
+.table, td, th {  
+    border: 0px solid #ddd;
+    text-align:center;
+   
+    padding: 3px 8px,3px,8px;
+  }
+  
+.table {
+    border-collapse: collapse;
+    width: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 40%;
+    left: 50%;
+    
+  }
+  
+th, td {
+    padding: 15px;
+    font-size: 10px;
+  }
+
+
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    font-size: 8px;
+    cursor: pointer;
+    }
+.add_btn{
+  position: absolute;
+    transform: translate(-50%,-50%);
+    top: 70%;
+    left: 50%;
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    font-size: 8px;
+}
